@@ -1,0 +1,211 @@
+@1    = ~Des belettes ! Parce que les jeux IE avaient besoin de plus de belettes !~
+@2    = ~Belette~
+@3    = ~Belette rapide~
+@4    = ~Belette astrale~
+@5    = ~Convocation de Belettes~
+@6    = ~Convocation de Belettes
+(Conjuration/Convocation) 
+
+Niveau : 1
+Portée : 36m
+Durée : 4 rounds + 1 round/2 niveaux (max. 8 rounds)
+Temps d'incantation : 2
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun 
+
+Ce sort permet au lanceur de convoquer 1d4+1 belettes qui combattront à ses côtés. Il est possible qu'une belette rapide soit convoquée à la place d'une belette normale. Les belettes rapides, come leur nom l'indique, se déplacent plus vite et ont 1/2 attaque supplémentaire par round. À partir du niveau 9, une belette supplémentaire est convoquée à coup sûr.
+
+Même si les belettes sont très utiles pour celui qui les convoque, elles sont incapables de causer des dégâts létaux. Elles sont donc plus utiles pour distraire et provoquer les ennemis pendant que le lanceur de sorts prépare leur prochaine manœuvre.~
+@7    = ~Convocation de Belette Astrale~
+@8    = ~Convocation de Belette Astrale
+(Conjuration/Convocation) 
+
+Niveau : 5
+Portée : 36m
+Durée : 3 tours
+Temps d'incantation : 3
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun 
+
+Ce sort permet au lanceur de convoquer une puissante belette astrale, capable de causer des dégâts létaux aux ennemis et de lancer les sorts suivants (dans le langage des belettes, bien sûr) : Détection de l'invisibilité, Invisibilité, Connaissance des Alignements, Clairvoyance et Rapidité.
+
+Il est possible qu'une belette astrale supplémentaire, possédant les mêmes capacités, soit convoquée en même temps.~
+@10   = ~Patte de Belette~
+@11   = ~Patte de Belette
+(Altération) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 7 rounds
+Temps d'incantation : 1
+Zone d'effet : le lanceur
+Jet de sauvegarde : aucun 
+
+Ce sort accorde temporairement au lanceur l'agilité d'une belette. Leur modificateur de mouvement est amélioré de 2 et leur classe d'armure contre les projectiles est améliorée de +3.~
+@12   = ~Puissance du Dieu Belette~
+@13   = ~Puissance du Dieu Belette
+(Altération) 
+
+Niveau : 6
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : le lanceur
+Jet de sauvegarde : aucun 
+
+Ce sort accorde temporairement au lanceur la puissance du dieu belette qui, en dépit des impression initiales que peuvent faire naître son nom, est en réalité un puissant esprit des Rashemen,avec des pouvoirs proches de ceux d'une demi-dieu. Pendant la durée du sort, la vitesse de déplacement du lanceur est augmentée de 12 et sa classe d'armure améliorée de 2 points, avec un bonus supplémentaire de +5 à l'armure contre les projectiles, et une attaque et demi par round supplémentaire.~
+@15   = ~Gourdin~
+@16   = ~Gourdin de l'Éleveur de Belettes~
+@17   = ~La plupart des gourdins sont de solides bâtons, plus épais à une extrémité que l'autre, la première servant de poignée. Arme élémentaire, elle fut utilisée dès les débuts de la création des outils. Alors qu'ils sont exagérément sous-estimés par la plupart, ce gourdin en particulier est plus puissant que les autres. En plus d'être enchanté, il accordera parfois à celui qui le manie l'agilité d'une belette.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 5% de chances par coup réussi de lancer Patte de Belette sur le propriétaire (vitesse de déplacement +2, Armure +3 contre les projectiles)
+
+TAC0 : +2
+Dégâts : 1d6 +2
+Type de dégâts :contondants
+Facteur de vitesse : 2
+Type de compétence : gourdin
+Type : arme à une main
+Nécessite :
+ 5 en Force
+
+Poids : 1
+~
+@18   = ~Cape~
+@19   = ~Cape du Musc~
+@20   = ~Cette belle cape peut sans conteste être considérée comme de qualité àpremière vue. Elle est taillée dans des matériaux de bonne qualité, solides et souples. Elle émet cependant une odeur qui... ne peut être décrite par ceux qui lui sont familier que comme musquée. Certains pourront considérer son parfum comme répugnant, ceux qui choisissent de porter la cape préfèrent dire qu'elle est « masculine ».
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Dextérité : +1
+
+Capacités de charge :
+- Une fois par jour, intensifie le parfum musqué de la cape pour attirer les belettes.
+
+Poids : 3
+~
+@21   = ~Épée longue~
+@22   = ~Esprit-Vif-De-Belette =2~
+@23   = ~Cette épée longue porte le nom étrange de « Esprit-Vif-De-Belette », qui est curieusement adapté quand on considère ses propriétés. Ceux qui la brandissent oient leurs capacités mentales améliorées. Cette arme puissante a autrefois appartenu à un barde bien connu pour son adoration des belettes, et qui est allé jusqu'à en élever cinq pour partir à l'aventure avec elles.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Temps d'incantation réduit de 1
+
+TAC0 : +2
+Dégâts : 1d8+2
+Type de dégâts : tranchants
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite :
+ 6 en Force
+
+Poids : 3
+~
+@24   = ~Habits~
+@25   = ~Habits Profanes du Dieu Belette~
+@26   = ~Ces habits profanes conviendront certainement à n'imoprte quel aventurier. Ces vêtements, dont on dit qu'ils sont bénis par le Dieu Belette, ont été confectionnés par le peuple Rashemeni et Theanna, qui après sa rencontre avec un puissant esprit belette, prétendument avec le pouvoir de « marche des rêves », un art magique qui permet à ceux qui sont aptes d'entrer dasn les rêves des autres, a créé un objet digne d'être nommé en honneur de la créature spirituelle.
+
+On pense que ceux qui portent ces habits entendent des bruits déroutants de belettes de temps en temps, ce qui pourrait affecter leur santé mentale.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Résistance au feu : +10%
+- Résistance aux dégâts de projectiles : +10%
+- Sagesse : -2
+- Ne peut être enlevé qu'avec un sort de délivrance de la malédiction
+
+Capacités de charge :
+- Peut lancer Puissance du Dieu Belette une fois par jour. Ce sort accorde temporairement au lanceur la puissance du dieu belette qui, en dépit des impression initiales que peuvent faire naître son nom, est en réalité un puissant esprit des Rashemen,avec des pouvoirs proches de ceux d'une demi-dieu. Pendant la durée du sort, la vitesse de déplacement du lanceur est augmentée de 12 et sa classe d'armure améliorée de 2 points, avec un bonus supplémentaire de +5 à l'armure contre les projectiles, et une attaque et demi par round supplémentaire.
+
+Poids : 3
+~
+@27   = ~Bottes~
+@28   = ~Pattes de l'Ami de la Belette~
+@29   = ~Vous pouvez percevoir une énergie magique latente qui émane de ces bottes et qui confirme qu'elle sont enchantées, mais leurs pouvoirs nesont actifs que quand elles sont chaussées par ceux qui sont entraînés à une connexion avec la nature.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Rapidité (pas d'attaque bonus par round, rôdeurs et druides seulement)
+
+Poids : 4
+~
+
+@30   = ~Habits~
+@31   = ~Habits Suprêmes du Dieu Belette~
+@32   = ~Ces habits profanes conviendront certainement à n'imoprte quel aventurier. Ces vêtements, dont on dit qu'ils sont bénis par le Dieu Belette, ont été confectionnés par le peuple Rashemeni et Theanna, qui après sa rencontre avec un puissant esprit belette, prétendument avec le pouvoir de « marche des rêves », un art magique qui permet à ceux qui sont aptes d'entrer dasn les rêves des autres, a créé un objet digne d'être nommé en honneur de la créature spirituelle.
+
+On pense que ceux qui portent ces habits entendent des bruits déroutants de belettes de temps en temps, ce qui pourrait affecter leur santé mentale.
+
+Grâce à Cespenar et <CHARNAME>, ces habits sont devenus encore plus puissants.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'Armure : +4
+- Résistance au feu : +20%
+- Résistance aux dégâts de projectiles : +20%
+- Protection contre les armes non-magiques
+- Sagesse : -2
+- Ne peut être enlevé qu'avec un sort de délivrance de la malédiction
+
+Capacités de charge :
+- Peut lancer Puissance du Dieu Belette une fois par jour. Ce sort accorde temporairement au lanceur la puissance du dieu belette qui, en dépit des impression initiales que peuvent faire naître son nom, est en réalité un puissant esprit des Rashemen,avec des pouvoirs proches de ceux d'une demi-dieu. Pendant la durée du sort, la vitesse de déplacement du lanceur est augmentée de 12 et sa classe d'armure améliorée de 2 points, avec un bonus supplémentaire de +5 à l'armure contre les projectiles, et une attaque et demi par round supplémentaire.
+
+Poids : 3
+~
+
+@33   = ~Aura Musquée~
+@34   = ~Aura Musquée
+(Enchantement) 
+
+Niveau : 1
+Portée: 5m.
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : le lanceur
+Jet de sauvegarde : aucun 
+
+Ce sort couvre le lanceur et ses alliés à proximité d'un parfum musqué qui cause un effet défavorable sur les bêtes hostiles. Les alliés affecté reçoivent un bonus de +2 à leur classe d'armure contre les animaux. Les énergies mobilisées par le lanceur stimulent aussi la confiance des béneficiaires, augmentant leur charisme et leur TAC0 de deux points chacun. L'odeur caractéristique rend cependant plus difficile les tentatives de se cacher. Les bénéficiaires du sorts subissent une pénalité de -50% pour leurs tentative de Se cacher dans l'ombre et de Déplacement silencieux.
+
+Ce sort ne peut être lancé que par les bardes.~
+
+@35 = ~Patte Sombre de la Belette~
+@36 = ~Patte Sombre de la Belette
+(Enchantement/Charme)
+
+Niveau : 1
+Portée: toucher
+Durée : 3 rounds
+Temps d'incantation : 3
+Zone d'effet : une créature
+Jet de sauvegarde : aucun 
+
+Avec ce sort, le lanceur peut améliorer les aptitudes de voleur de la cible. QUand le lanceur le touche, le bénéficiaire reçoit un bonus de 5% sur la compétence choisie pendant les 3 prochains rounds. Le bonus augmente de 5% additionnels tous les deux niveaux de lanceur, jusqu'à un bonus de 20% au niveau 7.
+
+La cible du sort subit cependant un malus de -1 à tous ses jets de sauvegarde pour toute la durée dusort.
+
+Selon la rumeur, ce sort a été créé par un artiste de mauvause réputation, un adepte de Shar. À cause de la nature du sort, seuls les bardes peuvent l'apprendre et le lancer.~
+@37 = ~Bonus sur Se cacher dans l'ombre~
+@38 = ~Compétence améliorée : Se cacher dans l'ombre~
+@39 = ~Bonus sur Détection des pièges~
+@40 = ~Compétence améliorée : Détection des pièges~
+@41 = ~Bonus sur Pose des pièges~
+@42 = ~Compétence améliorée : Pose des pièges~
+@43 = ~Bonus sur Détection des illusions~
+@44 = ~Compétence améliorée : Détection des illusions~
+@45 = ~Bonus sur Pickpocket~
+@46 = ~Compétence améliorée : Pickpocket~
+@47 = ~Bonus sur Crochetage~
+@48 = ~Compétence améliorée : Crochetage~
+@49 = ~Bonus sur Déplacement silencieux~
+@50 = ~Compétence améliorée : Déplacement silencieux~
