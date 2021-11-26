@@ -1,0 +1,9 @@
+IF
+  Global("ItemMaker","GLOBAL",971)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("L#WEASE6",Player1,1,0,0)
+    StartDialogNoSet(Player1)
+END

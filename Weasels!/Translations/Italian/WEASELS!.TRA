@@ -1,0 +1,200 @@
+@1    = ~Donnole! Perche' nei giochi c'era bisogno di piu' donnole!~
+@2    = ~Donnola~
+@3    = ~Rapidonnola~
+@4    = ~Donnola Astrale~
+@5    = ~Evocare Donnole~
+@6    = ~Evocare Donnole 
+(Evocazione/Attrazione) 
+
+Livello: 1
+Raggio d'azione: 36 metri 
+Durata: 4 round + 1 round ogni 2 livelli (sino a un massimo di 8 round)
+Tempo di lancio: 2 
+Area d'effetto: Speciale
+Tiro-salvezza: Nessuno 
+
+Questo incantesimo permette al lanciatore di evocare 1d4+1 donnole che combatteranno al suo fianco. Esiste una probabilità che venga evocata una rapidonnola al posto di una donnola normale. Le rapidonnole, come suggerisce il nome, si muovono più rapidamente ed effettuano 1/2 attacco per round. Dal 9° livello in poi, è garantita l'evocazione di una donnola addizionale.
+
+Sebbene le donnole siano molto utili per chi le evoca, non sono in grado di infliggere danno letale al nemico. Di conseguenza, il loro miglior impiego è per distrarre e provocare i nemici mentre il loro evocatore pianifica la sua prossima mossa.~
+@7    = ~Evocare Donnola Astrale~
+@8    = ~Evocare Donnola Astrale
+(Evocazione/Attrazione)
+ 
+Livello: 5
+Raggio d'azione: 36 metri 
+Durata: 3 turni
+Tempo di lancio: 3
+Area d'effetto: Speciale 
+Tiro-salvezza: Nessuno 
+
+Questo incantesimo permette di evocare una potente Donnola Astrale, capace di infliggere danno letale ai nemici e di lanciare i seguenti incantesimi (in lingua donnolesca, ovviamente): Individuazione dell'Invisibilità, Invisibilità, Individuazione dell'Allineamento, Chiaroveggenza, Velocità.
+
+C'è una probabilità del 30% che venga evocata una Donnola Astrale addizionale con le stesse capacità.~
+@10   = ~Zampe di Donnola~
+@11   = ~Zampe di Donnola
+(Alterazione) 
+
+Livello: 1
+Raggio d'azione: 0
+Durata: 7 round
+Tempo di lancio: 1
+Area d'effetto: Il lanciatore
+Tiro-salvezza: Nessuno 
+
+Questo incantesimo concede temporaneamente al lanciatore la velocità di una donnola, conferendogli un modificatore al Fattore-movimento pari a 2 e un bonus pari a +3 alla Classe Armatura contro proiettili.~
+@12   = ~Potere del Dio Donnola~
+@13   = ~Potere del Dio Donnola
+(Alterazione) 
+
+Livello: 6
+Raggio d'azione: 0
+Durata: 1 turno
+Tempo di lancio: 1
+Area d'effetto: Il lanciatore
+Tiro-salvezza: Nessuno 
+
+Questo incantesimo concede temporaneamente al lanciatore i poteri di un Dio Donnola che, nonostante le prime impressioni suggerite dal nome, è in realtà un potente spirito del Rashemen con poteri simili ad un semidio. Per tutta la durata dell'incantesimo, il Fattore-movimento del lanciatore aumenta di 12 e la Classe Armatura di 2 punti (+5 alla CA contro proiettili) e ottiene un attacco e 1/2 per round.~
+@15   = ~Clava~
+@16   = ~Clava dell'Allevatore di Donnole~
+@17   = ~Molte clave sono tronchi robusti in legno duro, stretti all'impugnatura e più larghi in sommità. Questa semplice arma è in uso sin da quando l'uomo ha iniziato a servirsi di attrezzi. Sebbene venga molto sottovalutata dai più, questa particolare clava è più potente delle altre della sua categoria. Oltre ad essere più forte rispetto ad una normale clava a causa dei suoi incantamenti, garantisce occasionalmente a chi lo impugna la rapidità di una donnola.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- 5% di possibilità per colpo di lanciare l'incantesimo Zampe di Donnola su chi la impugna (+2 al Fattore-movimento, +3 alla Classe Armatura contro proiettili)
+
+THAC0: +2
+Danno: 1d6+2 (contundente)
+Fattore-velocità: 2
+Tipo di Competenza: Clava
+Tipo: A una mano
+Richiede:
+Forza 5
+
+Peso: 1~
+@18   = ~Mantello~
+@19   = ~Mantello del Muschio~
+@20   = ~Questo pregiato mantello può essere innegabilmente considerato di alta qualità per l'aspetto, essendo composto da materiali pregiati tanto robusti quanto elastici. Tuttavia, è impregnato di un forte odore che... può essere descritto solo da chi ha familiarità con il muschio. Alcuni potrebbero trovare l'odore ripugnante, mentre coloro che scelgono di indossare il mantello lo definirebbero "parecchio virile".
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Destrezza: +1
+
+Abilità attivabili:
+- Una volta al giorno, può intensificare l'odore di muschio del mantello per attirare le donnole
+
+Peso: 3~
+@21   = ~Spada Lunga~
+@22   = ~Mente di Rapidonnola~
+@23   = ~Questa spada porta un nome peculiare, "Mente di Rapidonnola", sorprendentemente appropriato considerate le sue abilità, garantendo a chi la sguaina capacità mentali amplificate per tutto il tempo che la impugnano. Quest'arma portentosa appartenne un tempo ad un bardo conosciuto per la sua forte attrazione verso le donnole, arrivando persino a crescere cinque di queste creature come sue compagne d'avventura.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Il tempo di lancio degli incantesimi viene ridotto di 1
+
+THAC0: +2
+Danno: 1d8+2 (tagliente)
+Fattore-velocità: 3
+Tipo di Competenza: Spada Lunga
+Tipo: A una mano
+Richiede:
+Forza 6
+
+Peso: 3~
+@24   = ~Veste~
+@25   = ~Veste Arcana del Dio Donnola~
+@26   = ~Questa veste arcana può sicuramente soddisfare le necessità di qualsiasi avventuriero. Questi indumenti, secondo voci benedette dal Dio Donnola, sono state intessute dal popolo Rashemi con Theanna. Costei, dopo avere incontrato un potente spirito donnola con la presunta abilità "Cammino Onirico" (un'arte magica che permetterebbe di entrare nei sogni altrui), ebbe l'ispirazione di realizzare un vestito che onorasse il ricordo dell'incontro con tale spirito.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +1
+- Resistenza al Fuoco: +10%
+- Resistenza ai Proiettili: +10%
+- La Saggezza: -2
+- Può essere rimosso soltanto con l'incantesimo Scaccia Maledizione
+
+Abilità attivabili:
+- Può lanciare l'incantesimo Potere del Dio Donnola una volta al giorno. Questo incantesimo concede temporaneamente al lanciatore i poteri di un Dio Donnola che, nonostante le prime impressioni suggerite dal nome, è in realtà un potente spirito del Rashemen con poteri simili ad un semidio. Per tutta la durata dell'incantesimo, il Fattore-movimento del lanciatore aumenta di 12 e la Classe Armatura di 2 punti (+5 alla CA contro proiettili) e ottiene un attacco e 1/2 per round.
+
+Peso: 3
+~
+@27   = ~Stivali~
+@28   = ~Zampe dell'Amico delle Donnole~
+@29   = ~Da questi stivali si può percepire una sensazione di magia latente, a conferma del fatto che sono incantati, ma i loro poteri vengono attivati solo se indossati da chi è stato addestrato ad avere un legame con la natura.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Velocità (nessun attacco addizionale per round, solo per ranger e druidi)
+Peso: 4~
+
+@30   = ~Veste~
+@31   = ~Veste Arcana del Dio Donnola~
+@32   = ~Questa veste arcana può sicuramente soddisfare le necessità di qualsiasi avventuriero. Questi indumenti, secondo voci benedette dal Dio Donnola, sono state intessute dal popolo Rashemi con Theanna. Costei, dopo avere incontrato un potente spirito donnola con la presunta abilità "Cammino Onirico" (un'arte magica che permetterebbe di entrare nei sogni altrui), ebbe l'ispirazione di realizzare un vestito che onorasse il ricordo dell'incontro con tale spirito.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +4
+- Resistenza al Fuoco: +20%
+- Resistenza ai Proiettili: +20%
+- Immunità alle armi normali
+- La Saggezza: -2
+- Può essere rimosso soltanto con l'incantesimo Scaccia Maledizione
+
+Abilità attivabili:
+- Può lanciare l'incantesimo Potere del Dio Donnola una volta al giorno. Questo incantesimo concede temporaneamente al lanciatore i poteri di un Dio Donnola che, nonostante le prime impressioni suggerite dal nome, è in realtà un potente spirito del Rashemen con poteri simili ad un semidio. Per tutta la durata dell'incantesimo, il Fattore-movimento del lanciatore aumenta di 12 e la Classe Armatura di 2 punti (+5 alla CA contro proiettili) e ottiene un attacco e 1/2 per round.
+
+Peso: 3
+~
+
+@33   = ~Aura muschiata~
+@34   = ~Aura muschiata
+(Incantamento)
+
+Livello: 1
+Distanza: 0
+Durata: 1 turno
+Tempo di lancio: 1
+Area di effetto: raggio di 3 m
+Tiro salvezza: Nessuno
+
+Questo incantesimo ricopre il mago e i suoi alleati nelle vicinanze con un odore muschiato, che ha un effetto repellente contro gli animali ostili. Tutti gli alleati sotto l'effetto dell'incantesimo ricevono un bonus di +2 alla loro Classe Armatura contro animali. Le energie evocate dal mago aumentano anche la fiducia in sè stessi di tutti quelli sotto l'effetto, aumentando il loro Carisma e THAC0 di +2 punti ciascuno. Tuttavia, il caratteristico odore rende più difficile nascondersi. Tutti quelli sotto gli effetti dell'incantesimo hanno una penalità di -50% in muoversi silenziosamente e nascondersi nelle ombre.
+
+Questo incantesimo può essere lanciato solo dai bardi.~
+@35 = ~Zampa oscura della donnola~
+@36 = ~Zampa oscura della donnola
+(Incantamento/Charme)
+
+Livello: 1
+Distanza: Tocco
+Durata: 3 round
+Tempo di lancio: 3
+Area di effetto: 1 creatura
+Tiro salvezza: Nessuno
+
+Con questo incantesimo, il mago può aumentare le abilità da ladro del suo bersaglio. Una volta toccato, il beneficiario riceve un bonus del 5% per una singola abilità da ladro a sua scelta per i successivi 3 round. Il bonus aumenta di un ulteriore 5 % per ogni due livelli del mago, fino ad un totale di 20% a livello 7.
+
+Il bersaglio dell’incantesimo, tuttavia, ha una penalità di -1 a tutti i tiri salvezza per l’intera durata dell’incantesimo.
+
+Si dice che questo incantesimo fu creato da un artista malfamato, un seguace di Shar. Data la natura dell’incantesimo, solo I bardi possono impararlo e usarlo.~
+
+
+
+@37 = ~Bonus a nascondersi nelle ombre~
+@38 = ~Abilità migliorata: Nascondersi nelle Ombre~
+@39 = ~Bonus a trovare trappole~
+@40 = ~Abilità migliorata: Trovare Trappole~
+@41 = ~Bonus a piazzare trappole~
+@42 = ~Abilità migliorata: Piazzare Trappole~
+@43 = ~Bonus a scoprire illusioni~
+@44 = ~Abilità migliorata: Scoprire Illusioni~
+@45 = ~Bonus a borseggiare~
+@46 = ~Abilità migliorata: Borseggiare~
+@47 = ~Bonus a aprire serrature~
+@48 = ~Abilità migliorata: Aprire serrature~
+@49 = ~Bonus a muoversi silenziosamente~
+@50 = ~Abilità migliorata: Muoversi silenziosamente~

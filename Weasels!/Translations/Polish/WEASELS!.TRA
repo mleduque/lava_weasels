@@ -1,0 +1,203 @@
+@1    = ~Lasice! Bo gry IE potrzebuja wiecej lasic!~
+@2    = ~Łasica~
+@3    = ~Prędka Łasica~
+@4    = ~Astralna Łasica~
+@5    = ~Wezwanie Łasic~
+@6    = ~Wezwanie Łasic
+(Sprowadzanie/Przywoływanie)
+
+Poziom: 1
+Zasięg: 40 metrów
+Czas działania: 4 rundy + 1 runda/2 poziomy (maks. 8)
+Czas rzucania: 2
+Obszar działania: Specjalny
+Rzut obronny: Brak
+
+Zaklęcie to pozwala wezwać grupę łasic (2-5), które będą walczyć po stronie rzucającego zaklęcie. Istnieje szansa, że pośród wezwanych istot znajdzie się także prędka łasica. Poruszać się będzie szybciej. Posiada także dodatkowe pół ataku na rundę. Na poziomie 9 istnieje szansa na wezwanie dodatkowej łasicy.
+Łasice mogą wielce pomóc rzucającemu, jednakże nie są w stanie wykonać ostatecznego ciosu i zabić wroga. Mogą okazać się pomocne w dekoncentrowaniu i prowokowaniu wrogów, podczas gdy wzywający przygotowuje swój kolejny ruch.~
+@7    = ~Wezwanie Astralnej Łasicy~
+@8    = ~Wezwanie Astralnej Łasicy
+(Sprowadzanie/Przywoływanie)
+
+Poziom: 5
+Zasięg: 40 metrów
+Czas działania: 3 tury
+Czas rzucania: 3
+Obszar działania: Specjalny
+Rzut obronny: Brak
+
+Zaklęcie pozwala wezwać potężną astralną łasicę, która nie tylko potrafi ranić i zabijać wrogów, ale także - z pomocą swoje łasiczego języka - rzucać zaklęcia. Istota może rzucać: Wykrycie Niewidzialnego, Niewidzialność, Poznanie Charakteru, Jasnowidzenie oraz Przyspieszenie.
+Istnieje 30% szans na wezwanie jednej dodatkowej, równie silnej astralnej łasicy.~
+@10   = ~Łasicze Łapy~
+@11   = ~Łasicze Łapy
+(Przemiany) 
+
+Poziom: 1
+Zasięg: dotyk
+Czas działania: 7 rund
+Czas rzucania: 1
+Obszar działania: rzucający
+Rzuty obronne: Brak 
+
+Czar obdarowuje rzucającego łasiczą prędkością. Postać otrzymuje +2 prędkości poruszania się oraz +3 KP przeciwko broniom dystansowym, dzięki czemu postać o wiele trudniej trafić z łucznikom oraz innym atakującym z daleka istotom. ~
+@12   = ~Potęga Łasiczego Boga~
+@13   = ~Potęga Łasiczego Boga
+(Przemiany) 
+
+Poziom: 6
+Zasięg: dotyk
+Czas działania: 1 tura
+Czas rzucania: 1
+Obszar działania: rzucający
+Rzuty obronne: Brak 
+
+Zaklęcie pozwala rzucającemu na korzystanie z mocy Łasiczego Boga. Mimo, że nazwa zaklęcia sugeruje inaczej, w gruncie rzeczy pozwala ono na korzystanie z sił potężnego ducha z Rashemenu, często porównywanego do boga. Czar przyzywa tę moc i użycza jej rzucającemu, zapewniając +12 prędkości poruszania się, +2 KP (+7 przeciwko broni miotanej), +2 zręczności oraz dodatkowe +3/2 ataku na rundę.~
+@15   = ~Maczuga~
+@16   = ~Maczuga Łasiczego Hodowcy~
+@17   = ~Większość maczug to po prostu kawałki twardego drewna, od strony uchwytu węższe, zaś po przeciwnej szersze. Bronie te są niekiedy niedoceniane, natomiast ta konkretna maczuga zdaje się naprawdę potężna. Nie tylko została wzmocniona magią, ale pozwala okiełznać łasiczą magię.
+
+PARAMETRY:
+
+Właściwości bojowe:
+5% szansa na rzucenie zaklęcia Łasicze Łapy przy trafieniu (+2 prędkość poruszania się, +3 KP przeciwko broni miotanej)
+
+Trak0: +2
+Obrażenia: 1K6+2 (obuchowe)
+Opóźnienie: 2
+Rodzaj biegłości: Maczugi
+Typ: 1-ręczna
+Wymagania:
+ 5 siły
+
+Waga: 1~
+@18   = ~Płaszcz~
+@19   = ~Piżmowy Płaszcz~
+@20   = ~Ten płaszcz jest niezaprzeczalnie wysokiej jakości. Jest wykonany z dobrego i przyjemnego materiału. Jego jedyną nietypową cechą jest to, że... pachnie piżmem. O ile niektórzy mogą uznać ten zapach za dość odrzucający, inni mogą go ocenić jako całkiem męski.
+
+PARAMETRY
+
+Właściwości aktywne:
++1 zręczności
+
+Właściwości aktywowane:
+Raz dziennie może wzmocnić piżmowy zapach, tym samym zwabiając grupę pomocnych łasic
+
+Waga: 3 ~
+@21   = ~Długi Miecz~
+@22   = ~Umysł-prędki-jak-łasice~
+@23   = ~Miecz długi, którzy masz przed sobą znany jest pod nietypową nazwą Umysł-prędki-jak-łasice. Ta potężna broń należała niegdyś do barda słynącego swoim uwielbieniem łasic. Mówi się, że wychował pięć z nich, a te wyruszyły z nim na poszukiwanie przygód. Plotki mówią, że ten, kto trzyma miecz, jest w stanie szybciej miotać zaklęcia.
+
+PARAMETRY:
+
+Właściwości aktywne:
+Czas rzucania zaklęć zmniejszony o 1
+
+TraK0: +2
+Obrażenia: 1K8 + 2 (sieczne)
+Opóźnienie: 3
+Rodzaj biegłości: Długie miecze
+Typ: 1-ręczna
+Wymagania:
+ 6 siły
+
+Waga: 3
+~
+@24   = ~Ubiór~
+@25   = ~Tajemny ubiór łasiczego boga~
+@26   = ~To tajemne ubranie będzie pasować większości poszukiwaczom przygód. Strój ten został stworzony przez Theannę - wiedźmę z Rashemenu, potężną maginię o wielu talentach. Po tym jak zobaczyła potężną istotę nazywaną Łasiczym Bogiem, postanowiła stworzyć przedmiot godzien nazwania po tejże istocie. Jak widać, udało jej się.
+
+PARAMETRY:
+
+Właściwości aktywne:
++1 Klasy Pancerza
++10% odporności na ogień
++10% odporności na broń miotaną
+Mądrość: -2
+Można zdjąć jedynie z użyciem zdjęcia klątwy
+
+Właściwości aktywowane:
+Pozwala na rzucenie zaklęcia Potęga Łasiczego Boga (raz dziennie)
+POTĘGA ŁASICZEGO BOGA: Czar przyzywa moc Łasiczego Boga i użycza jej rzucającemu, zapewniając +12 prędkości poruszania się, +2 KP (+7 przeciwko broni miotanej), +2 zręczności oraz dodatkowe +3/2 ataku na rundę. (Czas trwania: 1 tura)
+
+Waga: 3
+~
+@27   = ~Buty~
+@28   = ~Łapy przyjaciela łasic~
+@29   = ~Te magiczne buty posiadają zaklętą moc, jednakże może ona być aktywowana wyłącznie przez tych, związanych z naturą.
+
+PARAMETRY:
+
+Właściwości aktywne:
+Buty te zapewniają druidom i łowcom efekt przyspieszenia (bez zwiększenia ataków na rundę). Dla wszystkich innych, buty te są zwyczajnymi trzewikami dobrej jakości.
+
+Waga: 4
+~
+
+@30   = ~Ubiór~
+@31   = ~Wspaniały ubiór Łasiczego Boga~
+@32   = ~To tajemne ubranie będzie pasować większości poszukiwaczom przygód. Strój ten został stworzony przez Theannę - wiedźmę z Rashemenu, potężną maginię o wielu talentach. Po tym jak zobaczyła potężną istotę nazywaną Łasiczym Bogiem, postanowiła stworzyć przedmiot godzien nazwania po tejże istocie. Jak widać, udało jej się.
+
+Osoby, które noszą ten strój, słyszą ponoć od czasu do czasu odgłosy łasic. Dźwięki te dezorientują posiadacza stroju i mogą wręcz pozbawić go części zdrowego rozsądku.
+
+<CHARNAME> i Cespenar sprawili, że przedmiot ten zyskał dodatkową moc.
+
+PARAMETRY:
+
+Właściwości aktywne:
++4 Klasy Pancerza
++20% odporności na ogień
++20% odporności na broń miotaną
+Niewrażliwość na zwyczajne bronie
+Mądrość: -2
+Można zdjąć jedynie z użyciem zdjęcia klątwy
+
+Właściwości aktywowane:
+Pozwala na rzucenie zaklęcia Potęga Łasiczego Boga (raz dziennie)
+POTĘGA ŁASICZEGO BOGA: Czar przyzywa moc Łasiczego Boga i użycza jej rzucającemu, zapewniając +12 prędkości poruszania się, +2 KP (+7 przeciwko broni miotanej), +2 zręczności oraz dodatkowe +3/2 ataku na rundę. (Czas trwania: 1 tura)
+
+Waga: 3
+~
+
+@33   = ~Piżmowa Aura~
+@34   = ~Piżmowa Aura
+(Zaczarowania) 
+
+Poziom: 1
+Zasięg: 0
+Czas działania: 1 tura
+Czas rzucania: 1
+Obszar działania: w promieniu 3 metrów
+Rzut obronny: brak
+
+Czar ten otacza rzucającego i sojuszników przebywających w jego bezpośrednim sąsiedztwie zapachem piżma, który wywiera negatywny wpływ na wrogie im zwierzęta. Sojusznicy znajdujący się w obszarze działania otrzymują premię +2 do Klasy Pancerza przeciwko zwierzętom. Energie przywołane przez rzucającego czar dodatkowo potęgują pewność siebie osób objętych zaklęciem, dodając po 2 punkty do wartości ich Charyzmy i TraK0. Charakterystyczny zapach utrudnia jednakże ukrywanie się. Osoby będące pod wpływem zaklęcia ponoszą karę -50% do umiejętności Krycie się w cieniu oraz Ciche chodzenie.
+
+To zaklęcie mogą rzucać wyłącznie bardowie.~
+
+@35 = ~Mroczna łasicza łapa~
+@36 = ~Mroczna łasicza łapa
+(Zaczarowania/Zauroczenia)
+
+Poziom: 1
+Zasięg: dotyk
+Czas działania: 3 rundy
+Czas rzucania: 3
+Obszar działania: 1 istota
+Rzut obronny: brak
+
+Za pomocą tego zaklęcia rzucający może wzmocnić złodziejskie umiejętności wskazanej postaci. Po dotknięciu przez rzucającego postać otrzymuje premię 5% do wybranej umiejętności na kolejne 3 rundy. Premia powiększa się o kolejne 5% na każde dwa poziomy rzucającego, osiągając maksymalnie 20% na poziomie 7. Postać znajdująca się pod wpływem czaru otrzymuje jednakże karę -1 do wszystkich rzutów obronnych na czas działania zaklęcia.
+
+Wieść niesie, że czar ten stworzył pewien otoczony złą sławą artysta, wyznawca Shar. Ze względu na specyficzną naturę tego zaklęcia mogą rzucać je wyłącznie bardowie.~
+@37 = ~Premia do Krycia się w cieniu~
+@38 = ~Zmodyfikowano umiejętność: Krycie się w cieniu~
+@39 = ~Premia do Znajdowania pułapek~
+@40 = ~Zmodyfikowano umiejętność: Znajdowanie pułapek~
+@41 = ~Premia do Zastawiania pułapek~
+@42 = ~Zmodyfikowano umiejętność: Zastawianie pułapek~
+@43 = ~Premia do Wykrycia iluzji~
+@44 = ~Zmodyfikowano umiejętność: Wykrycie iluzji~
+@45 = ~Premia do Kradzieży kieszonkowej~
+@46 = ~Zmodyfikowano umiejętność: Kradzież kieszonkowa~
+@47 = ~Premia do Otwierania zamków~
+@48 = ~Zmodyfikowano umiejętność: Otwieranie zamków~
+@49 = ~Premia do Cichego chodzenia~
+@50 = ~Zmodyfikowano umiejętność: Ciche chodzenie~

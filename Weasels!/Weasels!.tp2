@@ -1,0 +1,635 @@
+BACKUP ~Weasels!/backup~
+AUTHOR ~Lava Del'Vortel~
+README ~Weasels!/Readme.txt~
+
+VERSION ~3.0~
+
+AUTO_TRA ~Weasels!/translations/%s~
+
+LANGUAGE ~English~  ~English~ ~Weasels!/Translations/English/Weasels!.tra~
+LANGUAGE ~Polish~   ~Polish~  ~Weasels!/Translations/Polish/Weasels!.tra~
+LANGUAGE ~Italian~  ~Italian~  ~Weasels!/Translations/Italian/Weasels!.tra~
+LANGUAGE ~Russian~  ~Russian~  ~Weasels!/Translations/Russian/Weasels!.tra~
+LANGUAGE ~Chinese~  ~SChinese~  ~Weasels!/Translations/SChinese/Weasels!.tra~
+
+BEGIN @1
+
+///COPY FILES
+
+COPY ~Weasels!/bam~ ~override~
+COPY ~Weasels!/2da~ ~override~
+COPY ~Weasels!/effects~ ~override~
+COPY ~Weasels!/vvc~ ~override~
+
+///COPY CREATURES
+
+COPY ~Weasels!/creatures/L#176w1.cre~ ~override~
+ SAY NAME1 @2
+ SAY NAME2 @2
+ 
+COPY ~Weasels!/creatures/L#176w2.cre~ ~override~
+ SAY NAME1 @3
+ SAY NAME2 @3
+ 
+COPY ~Weasels!/creatures/L#577w1.cre~ ~override~
+ SAY NAME1 @4
+ SAY NAME2 @4 
+ 
+///COPY SPELLS
+
+ADD_SPELL ~Weasels!/spells/L#wi176.spl~ 2 1 WIZARD_SUMMON_WEASELS // Summon Weasels
+ SAY NAME1 @5
+ SAY NAME2 @5
+ SAY UNIDENTIFIED_DESC @6
+ SAY DESC @6
+
+
+////////////////////////////////////////////
+
+ADD_SPELL ~Weasels!/spells/L#pr180.spl~ 1 1 CLERIC_SUMMON_WEASELS // Summon Weasels (cleric)
+ SAY NAME1 @5
+ SAY NAME2 @5
+ SAY UNIDENTIFIED_DESC @6
+ SAY DESC @6
+
+
+////////////////////////////////////////////
+
+
+ADD_SPELL ~Weasels!/spells/L#wi577.spl~ 2 5 WIZARD_SUMMON_ASTRAL_WEASEL // Summon Astral Weasel
+ SAY NAME1 @7
+ SAY NAME2 @7
+ SAY UNIDENTIFIED_DESC @8
+ SAY DESC @8
+
+
+////////////////////////////////////////////
+
+ADD_SPELL ~Weasels!/spells/L#pr178.spl~ 1 1 CLERIC_WEASELPAWS // Weaselpaws
+ SAY NAME1 @10
+ SAY NAME2 @10
+ SAY UNIDENTIFIED_DESC @11
+ SAY DESC @11
+  LPF ALTER_EFFECT INT_VAR match_opcode = 321 STR_VAR resource = EVAL ~%DEST_RES%~ END
+
+////////////////////////////////////////////
+
+ADD_SPELL ~Weasels!/spells/L#pr679.spl~ 1 6 CLERIC_POWER_OF_THE_WEASEL_GOD // Power of the Weasel God
+ SAY NAME1 @12
+ SAY NAME2 @12
+ SAY UNIDENTIFIED_DESC @13
+ SAY DESC @13
+  LPF ALTER_EFFECT INT_VAR match_opcode = 321 STR_VAR resource = EVAL ~%DEST_RES%~ END
+ 
+////////////////////////////////////////////
+
+COPY ~Weasels!/spells/L#webr1.spl~ ~override~ // Musky Aura
+ SAY NAME1 @33
+ SAY NAME2 @33
+ SAY UNIDENTIFIED_DESC @34
+ SAY DESC @34
+
+////////////////////////////////////////////
+
+COPY ~Weasels!/spells/L#webr2.spl~ ~override~ // Weasel's Dark Paw
+ SAY NAME1 @35
+ SAY NAME2 @35
+ SAY UNIDENTIFIED_DESC @36
+ SAY DESC @36
+ 
+COPY ~%MOD_FOLDER%/spells/L#webr2t.spl~ ~override~
+  SAY NAME1 @37
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@38)
+  END
+  
+COPY ~%MOD_FOLDER%/spells/L#webr2u.spl~ ~override~
+  SAY NAME1 @39
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@40)
+  END
+  
+COPY ~%MOD_FOLDER%/spells/L#webr2V.spl~ ~override~
+  SAY NAME1 @41
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@42)
+  END
+  
+COPY ~%MOD_FOLDER%/spells/L#webr2W.spl~ ~override~
+  SAY NAME1 @43
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@44)
+  END
+  
+COPY ~%MOD_FOLDER%/spells/L#webr2X.spl~ ~override~
+  SAY NAME1 @45
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@46)
+  END
+  
+COPY ~%MOD_FOLDER%/spells/L#webr2Y.spl~ ~override~
+  SAY NAME1 @47
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@48)
+  END
+  
+COPY ~%MOD_FOLDER%/spells/L#webr2Z.spl~ ~override~
+  SAY NAME1 @49
+  LPF ALTER_SPELL_EFFECT
+    INT_VAR
+      match_opcode = 139
+      parameter1 = RESOLVE_STR_REF(@50)
+  END
+
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+///COPY ITEMS
+
+LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~WIZARD_SUMMON_WEASELS~ RET spell_res spell_num END
+
+COPY ~Weasels!/items/L#wi176.itm~ ~override~
+ SAY NAME1 @5
+ SAY NAME2 @5
+ SAY DESC @6
+  WRITE_ASCIIE 0xf6 ~%spell_res%~ #8
+  WRITE_ASCIIE 0x126 ~%spell_res%~ #8
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~tarnes.cre~ ~override/tarnes.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~denak.cre~ ~override/denak.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~andris.cre~ ~override/andris.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~davaeo.cre~ ~override/davaeo.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+    COPY_EXISTING ~highhedg.sto~   ~override/highhedg.sto~   
+    ADD_STORE_ITEM ~L#wi176~ AFTER ~SCRL77~ #3 #0 #0 ~IDENTIFIED~ #2
+    ADD_STORE_ITEM ~L#wi577~ AFTER ~SCRL6L~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdshkorl.cre~ THEN BEGIN
+    COPY_EXISTING ~bdshkorl.cre~ ~override/bdshkorl.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+   COPY_EXISTING ~tolger2.cre~ ~override/tolger2.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~clone1.cre~ ~override/clone1.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~kalah2.cre~ ~override/kalah2.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #2 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~ar18mage.cre~ ~override/ar18mage.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+    COPY_EXISTING ~scrolls.sto~   ~override/scrolls.sto~   
+    ADD_STORE_ITEM ~L#wi176~ AFTER ~SCRL66~ #3 #0 #0 ~IDENTIFIED~ #2
+    ADD_STORE_ITEM ~L#wi577~ AFTER ~SCRLAJ~ #2 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+      COPY_EXISTING ~25spell.sto~   ~override/25spell.sto~   
+    ADD_STORE_ITEM ~L#wi176~ AFTER ~SCRL66~ #3 #0 #0 ~IDENTIFIED~ #2
+    ADD_STORE_ITEM ~L#wi577~ AFTER ~SCRL5P~ #2 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+      COPY_EXISTING ~kuork0.sto~   ~override/kuork0.sto~   
+    ADD_STORE_ITEM ~L#wi176~ AFTER ~SCRL75~ #3 #0 #0 ~IDENTIFIED~ #2
+    ADD_STORE_ITEM ~L#wi577~ AFTER ~SCRL95~ #2 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+        COPY_EXISTING ~kuork2.sto~   ~override/kuork2.sto~   
+    ADD_STORE_ITEM ~L#wi176~ AFTER ~SCRL2A~ #3 #0 #0 ~IDENTIFIED~ #2
+    ADD_STORE_ITEM ~L#wi577~ AFTER ~SCRL2A~ #2 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+      COPY_EXISTING ~ehpomab.sto~   ~override/ehpomab.sto~   
+    ADD_STORE_ITEM ~L#wi176~ AFTER ~WINE~ #3 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+        COPY_EXISTING ~presio.cre~ ~override/presio.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi176~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+////////////////////////////////////////////
+
+LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~WIZARD_SUMMON_ASTRAL_WEASEL~ RET spell_res spell_num END
+
+COPY ~Weasels!/items/L#wi577.itm~ ~override~
+ SAY NAME1 @7
+ SAY NAME2 @7
+ SAY DESC @8
+  WRITE_ASCIIE 0xf6 ~%spell_res%~ #8
+  WRITE_ASCIIE 0x126 ~%spell_res%~ #8
+
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~davaeo.cre~ ~override/davaeo.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi577~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~bdshkorl.cre~ THEN BEGIN
+    COPY_EXISTING ~bdshkorl.cre~ ~override/bdshkorl.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi577~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+   COPY_EXISTING ~lavok02.cre~ ~override/lavok02.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi577~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~pwarden.cre~ ~override/pwarden.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi577~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~ar18mage.cre~ ~override/ar18mage.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi577~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+        COPY_EXISTING ~presio.cre~ ~override/presio.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#wi577~ #1 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+////////////////////////////////////////////
+
+COPY ~Weasels!/items/L#webr1.itm~ ~override~
+ SAY NAME1 @33
+ SAY NAME2 @33
+ SAY DESC @34
+ 
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~SILKE.cre~ ~override/SILKE.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#webr1~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~MERSIL.cre~ ~override/MERSIL.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~L#webr1~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+    COPY_EXISTING ~murcrag.sto~   ~override/murcrag.sto~   
+    ADD_STORE_ITEM ~L#webr1~ AFTER ~POTN12~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+    COPY_EXISTING ~SHOP08.sto~   ~override/SHOP08.sto~   
+    ADD_STORE_ITEM ~L#webr1~ AFTER ~SCRL66~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+    COPY_EXISTING ~KUOSWALD.sto~   ~override/KUOSWALD.sto~   
+    ADD_STORE_ITEM ~L#webr1~ AFTER ~FLAMOIL~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+////////////////////////////////////////////
+
+COPY ~Weasels!/items/L#webr2.itm~ ~override~
+ SAY NAME1 @35
+ SAY NAME2 @35
+ SAY DESC @36
+ 
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+    COPY_EXISTING ~STO4906.sto~   ~override/STO4906.sto~   
+    ADD_STORE_ITEM ~L#webr2~ AFTER ~RING21~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+ 
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+    COPY_EXISTING ~murcrag.sto~   ~override/murcrag.sto~   
+    ADD_STORE_ITEM ~L#webr2~ AFTER ~POTN12~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+    COPY_EXISTING ~SHOP08.sto~   ~override/SHOP08.sto~   
+    ADD_STORE_ITEM ~L#webr2~ AFTER ~SCRL66~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+    COPY_EXISTING ~KUOSWALD.sto~   ~override/KUOSWALD.sto~   
+    ADD_STORE_ITEM ~L#webr2~ AFTER ~FLAMOIL~ #1 #0 #0 ~IDENTIFIED~ #2
+  BUT_ONLY
+END
+
+///////////////////////////////////////////
+
+LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~CLERIC_WEASELPAWS~ RET spell_res spell_num END
+
+COPY ~Weasels!/items/L#WEASE1.itm~ ~override~
+ SAY NAME1 @15
+ SAY NAME2 @16
+ SAY DESC @17
+  WRITE_ASCIIE 0x17e ~%spell_res%~ #8
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~AMARAN.cre~ ~override/AMARAN.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease1~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+   COPY_EXISTING ~OBSHAL02.cre~ ~override/OBSHAL02.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease1~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+   COPY_EXISTING ~lizking.cre~ ~override/lizking.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease1~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+////////////////////////////////
+
+LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~WIZARD_SUMMON_WEASELS~ RET spell_res spell_num END
+
+COPY ~Weasels!/items/L#WEASE2.itm~ ~override~
+ SAY NAME1 @18
+ SAY NAME2 @19
+ SAY DESC @20
+  WRITE_ASCIIE 0xee ~%spell_res%~ #8
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~greywo.cre~ ~override/greywo.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease2~ #1 #1 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+   COPY_EXISTING ~beast.cre~ ~override/beast.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease2~ #1 #1 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+   COPY_EXISTING ~ULIGAR.cre~ ~override/ULIGAR.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease2~ #1 #1 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+
+////////////////////////////////
+
+COPY ~Weasels!/items/L#WEASE3.itm~ ~override~
+ SAY NAME1 @21
+ SAY NAME2 @22
+ SAY DESC @23
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~venkt.cre~ ~override/venkt.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease3~ #1 #1 #0 ~NONE~ ~WEAPON2~ EQUIP
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+   COPY_EXISTING ~TOLMAG02.cre~ ~override/TOLMAG02.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease3~ #1 #1 #0 ~NONE~ ~inv~ 
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+   COPY_EXISTING ~ALBION.cre~ ~override/ALBION.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease3~ #1 #1 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+
+
+////////////////////////////////
+
+LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~CLERIC_POWER_OF_THE_WEASEL_GOD~ RET spell_res spell_num END
+
+COPY ~Weasels!/items/L#WEASE4.itm~ ~override~
+ SAY NAME1 @24
+ SAY NAME2 @25
+ SAY DESC @26
+  WRITE_ASCIIE 0x20e ~%spell_res%~ #8
+  
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~nimbul.cre~ ~override/nimbul.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease4~ #2 #2 #0 ~NONE~ ~armor~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+   COPY_EXISTING ~FIRRAK01.cre~ ~override/FIRRAK01.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease4~ #2 #2 #0 ~NONE~ ~inv~ 
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+   COPY_EXISTING ~ELDATHL.cre~ ~override/ELDATHL.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease4~ #2 #2 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+////////////////////////////////
+
+COPY ~Weasels!/items/L#WEASE5.itm~ ~override~
+ SAY NAME1 @27
+ SAY NAME2 @28
+ SAY DESC @29
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+   COPY_EXISTING ~KIRINH.cre~ ~override/KIRINH.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease5~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+   COPY_EXISTING ~DCOWL1.cre~ ~override/DCOWL1.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease5~ #0 #0 #0 ~NONE~ ~inv~ 
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+   COPY_EXISTING ~KONTIK.cre~ ~override/KONTIK.cre~
+	   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		  ADD_CRE_ITEM ~l#wease5~ #0 #0 #0 ~NONE~ ~inv~
+	   END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+////////////////////////////////
+
+COPY ~Weasels!/items/L#WEASE6.itm~ ~override~
+ SAY NAME1 @30
+ SAY NAME2 @31
+ SAY DESC @32
+  WRITE_ASCIIE 0x20e ~%spell_res%~ #8
+  
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ COMPILE ~Weasels!/Dialogue/botsmith.d~
+ EXTEND_BOTTOM ~botsmith.bcs~  ~Weasels!/scripts/botsmith.baf~
+    COPY_EXISTING ~SHOP08.sto~   ~override/SHOP08.sto~   
+    ADD_STORE_ITEM ~POTN11~ AFTER ~POTN55~ #1 #0 #0 ~IDENTIFIED~ #3
+    BUT_ONLY
+END
+
+
+
+///////////////////////////////////////////////////
+////////////// MAGES CAST NEW SPELLS //////////////
+///////////////////////////////////////////////////
+
+//Tarnesh and low-level mages (BG1) 
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+ COPY_EXISTING ~MAGE2.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~HaveSpell(WIZARD_HORROR)~ ~!StateCheck(Myself,STATE_SILENCED) !StateCheck(Myself,STATE_PANIC) !StateCheck(Myself,STATE_STUNNED) !StateCheck(Myself,STATE_SLEEPING) Global("WeaselSpell","LOCALS",0)~
+     REPLACE_TEXTUALLY ~Spell(Nearestenemyof(Myself),WIZARD_HORROR)~ ~SetGlobal("WeaselSpell","LOCALS",1) SpellNoDec(Nearestenemyof(Myself),WIZARD_SUMMON_WEASELS)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//Shadow Druids (BG1)
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+ COPY_EXISTING ~DRUID3.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~ForceSpell(Myself,CLERIC_FLAME_BLADE)~ ~ForceSpell(Myself,CLERIC_WEASELPAWS) SpellNoDec(Myself,CLERIC_FLAME_BLADE)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//Seniyad and some druids (BG1)
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+ COPY_EXISTING ~PRIEST4.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~Spell(Lastseenby,CLERIC_CALL_LIGHTNING)~ ~Spell(Lastseenby,CLERIC_CALL_LIGHTNING) SpellNoDec(Myself,CLERIC_POWER_OF_THE_WEASEL_GOD)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//Dryad (BG1)
+
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+ COPY_EXISTING ~DRYAD.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~ForceSpell(Nearestenemyof(Myself),WIZARD_CHARM_PERSON)~ ~ForceSpell(Nearestenemyof(Myself),WIZARD_CHARM_PERSON) ForceSpell(Nearestenemyof(Myself),WIZARD_SUMMON_WEASELS)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//Kobold shamans (BG2) 
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ COPY_EXISTING ~KBSHAM01.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~HaveSpell(CLERIC_ENTANGLE)~ ~!StateCheck(Myself,STATE_SILENCED) !StateCheck(Myself,STATE_PANIC) !StateCheck(Myself,STATE_STUNNED) !StateCheck(Myself,STATE_SLEEPING) Global("WeaselSpell","LOCALS",0)~
+     REPLACE_TEXTUALLY ~Spell(Nearestenemyof(Myself),CLERIC_ENTANGLE)~ ~SetGlobal("WeaselSpell","LOCALS",1) SpellNoDec(Nearestenemyof(Myself),CLERIC_SUMMON_WEASELS)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//Dryad (BG2)
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ COPY_EXISTING ~DRYAD.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~ForceSpell(Nearestenemyof(Myself),WIZARD_CHARM_PERSON)~ ~ForceSpell(Nearestenemyof(Myself),WIZARD_CHARM_PERSON) ForceSpell(Nearestenemyof(Myself),WIZARD_SUMMON_WEASELS)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//Druids (BG2)
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+ COPY_EXISTING ~DRUID10B.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~HaveSpell(CLERIC_BLESS)~ ~!StateCheck(Myself,STATE_SILENCED) !StateCheck(Myself,STATE_PANIC) !StateCheck(Myself,STATE_STUNNED) !StateCheck(Myself,STATE_SLEEPING) Global("WeaselGod","LOCALS",0)~
+     REPLACE_TEXTUALLY ~Spell(Myself,CLERIC_BLESS)~ ~SetGlobal("WeaselGod","LOCALS",1) SpellNoDec(Myself,CLERIC_POWER_OF_THE_WEASEL_GOD)~
+    END
+   BUT_ONLY_IF_IT_CHANGES
+END

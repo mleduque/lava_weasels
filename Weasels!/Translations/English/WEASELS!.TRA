@@ -1,0 +1,211 @@
+@1    = ~Weasels! Because the IE games needed more weasels!~
+@2    = ~Weasel~
+@3    = ~Quick Weasel~
+@4    = ~Astral Weasel~
+@5    = ~Summon Weasels~
+@6    = ~Summon Weasels 
+(Conjuration/Summoning) 
+
+Level: 1
+Range: 40 yards 
+Duration: 4 rounds + 1 round/2 levels (max. 8 rounds)
+Casting Time: 2 
+Area of Effect: Special 
+Saving Throw: None 
+
+This spell allows the caster to summon 1d4+1 weasels that will fight on <PRO_HISHER> side. There is a chance that a Quick Weasel will be summoned in place of a normal weasel. Quick Weasels, as their name suggests, move more quickly and have 1/2 more attacks per round. From 9th level onwards, an additional weasel is guaranteed to be summoned.
+
+Although the weasels are greatly helpful to their summoner, they are unable to deal lethal damage to their opponents. Therefore, they are best used to distract and provoke enemies while their summoner plans their next move.~
+@7    = ~Summon Astral Weasel~
+@8    = ~Summon Astral Weasel
+(Conjuration/Summoning)
+ 
+Level: 5
+Range: 40 yards 
+Duration: 3 turns
+Casting Time: 3
+Area of Effect: Special 
+Saving Throw: None 
+
+This spell allows the caster to summon a powerful Astral Weasel that is capable of dealing lethal damage to enemies and may cast the following spells (using the weasel language, naturally): Detect Invisibility, Invisibility, Know Alignment, Clairvoyance, Haste
+
+There is 30% chance that an additional Astral Weasel with the same abilities will be summoned.~
+@10   = ~Weaselpaws~
+@11   = ~Weaselpaws
+(Alteration) 
+
+Level: 1
+Range: Self
+Duration: 7 rounds
+Casting Time: 1
+Area of Effect: caster
+Saving Throw: None 
+
+This spell temporarily grants the caster a weasel's swiftness, bestowing upon them an increased movement modifier of 2 and +3 to armor class vs. missiles.~
+@12   = ~Power of the Weasel God~
+@13   = ~Power of the Weasel God
+(Alteration) 
+
+Level: 6
+Range: Self
+Duration: 1 Turn
+Casting Time: 1
+Area of Effect: caster
+Saving Throw: None 
+
+This spell temporarily grants the caster the Power of the Weasel God which, despite any first impressions suggested by the name, is in fact a powerful spirit of Rashemen with power akin to a demigod. For the duration of this spell, the caster's movement rate is increased by 12 and their armor class is increased by 2 points with an additional +5 to armor class vs. missiles, and they gain one and a half bonus attacks per round.~
+@15   = ~Club~
+@16   = ~Club of the Weasel Breeder~
+@17   = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since people first began using tools. Though greatly underestimated by most, this particular club is more powerful than others of its kind. Aside from being stronger than a regular club due to its enchantments, it will occasionally bestow upon its wielder the swiftness of a weasel.
+
+STATISTICS:
+
+Combat abilities:
+- 5% chance each hit to cast Weaselpaws on the wielder (+2 movement rate, +3 Armor Class vs. missile weapons)
+
+THAC0: +2
+Damage: 1d6+2
+Damage type: Crushing
+Speed Factor: 2
+Proficiency Type: Club
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 1
+~
+@18   = ~Cloak~
+@19   = ~Cloak of the Musk~
+@20   = ~This fine cloak can undeniably be considered high quality in appearance, as it is made of a fine material that is both strong and supple. However, it carries an unusual smell that... can only be described to those familiar with it as musk. Some may consider the scent repulsive, while those who choose to wear the cloak would rather call it 'masculine'.
+
+STATISTICS:
+
+Equipped abilities:
+- Dexterity: +1
+
+Charge abilities:
+- Once per day, may intensify the cloak's musky scent to attract weasels
+
+Weight: 3
+~
+@21   = ~Long Sword~
+@22   = ~Mind-Swift-As-Weasels +2~
+@23   = ~This longsword bears the peculiar name, "Mind-Swift-As-Weasels", which is surprisingly appropriate considering its abilities, as those who draw this sword find their mental facilities amplified so long as they are holding it. This powerful weapon once belonged to a bard who was most well known for his adoration of weasels, going so far as to raising five of the creatures with whom he adventured together.
+
+STATISTICS:
+
+Equipped abilities:
+- Spellcasting time reduced by 1
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3
+~
+@24   = ~Attire~
+@25   = ~Arcane Attire of the Weasel God~
+@26   = ~This arcane attire may surely suit the needs of any adventurer. These garments, said to be blessed by the Weasel God, were crafted by the Rashemi with Theanna who, after encountering a powerful weasel spirit with the alleged ability of 'dreamwalking' - a magical art which allows the capable to enter the dreams of others - was inspired to make a magical item worthy of being named in honor of the spiritual being.
+
+Those that wear this attire are beleived to hear confusing weasel sounds every now and then, what may affect the wearer's sanity.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Fire Resistance: +10%
+- Missile Resistance: +10%
+- Wisdom: -2
+- May only be removed with a Remove Curse spell
+
+Charge abilities:
+- May cast Power of the Weasel God once per day. This spell temporarily grants the caster the Power of the Weasel God which, despite any first impressions suggested by the name, is in fact a powerful spirit of Rashemen with power akin to a demigod. For the duration of this spell (one turn), the caster's movement rate is increased by 12 and their armor class is increased by 2 points with an additional +5 to Armor Class vs. missiles, and they gain one and a half bonus attacks per round.
+
+Weight: 3
+~
+@27   = ~Boots~
+@28   = ~Paws of the Weasel's Friend~
+@29   = ~You can sense latent magical energy within these boots, confirming that they are enchanted, but their powers are only activated when worn by those who have trained in having a connection with nature.
+
+STATISTICS:
+
+Equipped abilities:
+- Haste (no extra attacks per round, rangers and druids only)
+
+Weight: 4
+~
+
+@30   = ~Attire~
+@31   = ~Supreme Attire of the Weasel God~
+@32   = ~This arcane attire may surely suit the needs of any adventurer. These garments, said to be blessed by the Weasel God, were crafted by the Rashemi with Theanna who, after encountering a powerful weasel spirit with the alleged ability of 'dreamwalking' - a magical art which allows the capable to enter the dreams of others - was inspired to make a magical item worthy of being named in honor of the spiritual being.
+
+Those that wear this attire are beleived to hear confusing weasel sounds every now and then, what may affect the wearer's sanity.
+
+Thanks to Cespenar and <CHARNAME>, this item became even stronger.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +4
+- Fire Resistance: +20%
+- Missile Resistance: +20%
+- Immunity to normal weapons
+- Wisdom: -2
+- May only be removed with a Remove Curse spell
+
+Charge abilities:
+- May cast Power of the Weasel God once per day. This spell temporarily grants the caster the Power of the Weasel God which, despite any first impressions suggested by the name, is in fact a powerful spirit of Rashemen with power akin to a demigod. For the duration of this spell (one turn), the caster's movement rate is increased by 12 and their armor class is increased by 2 points with an additional +5 to Armor Class vs. missiles, and they gain one and a half bonus attacks per round.
+
+Weight: 3
+~
+
+@33   = ~Musky Aura~
+@34   = ~Musky Aura
+(Enchantment) 
+
+Level: 1
+Range: 10 ft.
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+This spell covers the caster and their nearby allies with a musky scent, which takes an adverse effect on hostile beasts. All affected allies receive a +2 bonus to their Armor Class vs. animals. The energies summoned by the caster also boost the recipients' confidence, improving their Charisma and THAC0 by +2 points each. However, the distinctive scent makes it harder to hide. Those under the effect of the spell suffer a -50% penalty to Hide in Shadows and Move Silently.
+
+This spell may only be cast by bards.~
+
+@35 = ~Weasel's Dark Paw~
+@36 = ~Weasel's Dark Paw
+(Enchantment/Charm)
+
+Level: 1
+Range: Touch
+Duration: 3 rounds
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+With this spell, the caster may enhance the target's thieving abilities. Upon touch, the recipient gains a bonus of 5% to a single thieving ability of choice for the next 3 rounds. The bonus increases by an additional 5% per two levels of the caster, up to a total of 20% at level 7.
+
+The target of the spell, however, suffers a -1 penalty to all Saving Throws for the whole duration of the spell.
+
+Rumor has it that this spell was created by an infamous artist, a follower of Shar. Because of the spell's nature, only bards may learn and use it.~
+@37 = ~Hide in Shadows Bonus~
+@38 = ~Ability improved: Hide in Shadows~
+@39 = ~Find Traps Bonus~
+@40 = ~Ability improved: Find Traps~
+@41 = ~Set Traps Bonus~
+@42 = ~Ability improved: Set Traps~
+@43 = ~Detect Illusion Bonus~
+@44 = ~Ability improved: Detect Illusion~
+@45 = ~Pick Pockets Bonus~
+@46 = ~Ability improved: Pick Pockets~
+@47 = ~Open Locks Bonus~
+@48 = ~Ability improved: Open Locks~
+@49 = ~Move Silently Bonus~
+@50 = ~Ability improved: Move Silently~
