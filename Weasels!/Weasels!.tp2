@@ -2,7 +2,11 @@ BACKUP ~Weasels!/backup~
 AUTHOR ~Lava Del'Vortel~
 README ~Weasels!/Readme.txt~
 
-VERSION ~3.0~
+VERSION ~3.1~
+
+ALWAYS
+ INCLUDE ~Weasels!/functions.tph~
+END
 
 AUTO_TRA ~Weasels!/translations/%s~
 
@@ -13,6 +17,10 @@ LANGUAGE ~Russian~  ~Russian~  ~Weasels!/Translations/Russian/Weasels!.tra~
 LANGUAGE ~Chinese~  ~SChinese~  ~Weasels!/Translations/SChinese/Weasels!.tra~
 
 BEGIN @1
+
+///ANIMATION
+
+INCLUDE ~Weasels!/NewAnimation.tph~
 
 ///COPY FILES
 
@@ -26,14 +34,17 @@ COPY ~Weasels!/vvc~ ~override~
 COPY ~Weasels!/creatures/L#176w1.cre~ ~override~
  SAY NAME1 @2
  SAY NAME2 @2
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~L#_WEASEL~))
  
 COPY ~Weasels!/creatures/L#176w2.cre~ ~override~
  SAY NAME1 @3
  SAY NAME2 @3
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~L#_WEASEL~))
  
 COPY ~Weasels!/creatures/L#577w1.cre~ ~override~
  SAY NAME1 @4
  SAY NAME2 @4 
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~L#_WEASEL~))
  
 ///COPY SPELLS
 

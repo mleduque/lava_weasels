@@ -3,7 +3,7 @@ Weasels! Mod for BG:EE / BG2:EE / IWD:EE
 ______________________________________
 
 Author: Lava Del'Vortel
-Version: 3.0
+Version: 3.1
 
 
 INTRODUCTION:
@@ -64,4 +64,6 @@ November 2021 - version 3.0+:
 - Updated all translations to cover the above changes 
 - Additional proofreading and item description verification by GoForTheEyes
 - WeiDU update
+- New animation (v3.1)
+- Cespenar sounds more like Cespenar, oh yes! (v3.1)
 
