@@ -2,7 +2,7 @@ BACKUP ~Weasels!/backup~
 AUTHOR ~Lava Del'Vortel~
 README ~Weasels!/Readme.txt~
 
-VERSION ~3.1~
+VERSION ~3.3~
 
 ALWAYS
  INCLUDE ~Weasels!/functions.tph~
@@ -10,13 +10,15 @@ END
 
 AUTO_TRA ~Weasels!/translations/%s~
 
-LANGUAGE ~English~  ~English~ ~Weasels!/Translations/English/Weasels!.tra~
-LANGUAGE ~Polish~   ~Polish~  ~Weasels!/Translations/Polish/Weasels!.tra~
-LANGUAGE ~Italian~  ~Italian~  ~Weasels!/Translations/Italian/Weasels!.tra~
-LANGUAGE ~Russian~  ~Russian~  ~Weasels!/Translations/Russian/Weasels!.tra~
+LANGUAGE ~English~  ~English~   ~Weasels!/Translations/English/Weasels!.tra~
+LANGUAGE ~Polish~   ~Polish~    ~Weasels!/Translations/Polish/Weasels!.tra~
+LANGUAGE ~Italian~  ~Italian~   ~Weasels!/Translations/Italian/Weasels!.tra~
+LANGUAGE ~Russian~  ~Russian~   ~Weasels!/Translations/Russian/Weasels!.tra~
 LANGUAGE ~Chinese~  ~SChinese~  ~Weasels!/Translations/SChinese/Weasels!.tra~
+LANGUAGE ~French~   ~French~    ~Weasels!/Translations/French/Weasels!.tra~
 
 BEGIN @1
+LABEL L#-WEASELS
 
 ///ANIMATION
 

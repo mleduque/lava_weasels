@@ -3,7 +3,7 @@ Weasels! Mod for BG:EE / BG2:EE / IWD:EE
 ______________________________________
 
 Author: Lava Del'Vortel
-Version: 3.1
+Version: 3.3
 
 
 INTRODUCTION:
@@ -25,10 +25,11 @@ CREDITS:
 Mod Author: Lava Del'Vortel
 Proofreading: Artemius_I, GoForTheEyes
 Testing: Artemius_I
-Other help: K4thos, Argent77, Cahir
+Other help: K4thos, Argent77, Cahir, kjeron
 Italian translation: Elia Danelli & Aedan, Gwaihir
 Russian translation: Mirandel, Austin, translation proofreading by Creepin, other help and fixes by GeN1e
 Chinese translation: Merzbau, Artemius_I
+French translation: JohnBob
 Many thanks to everyone who are still playing the IE games, all modding communities and those who support the gaming industry.
 
 
@@ -66,4 +67,5 @@ November 2021 - version 3.0+:
 - WeiDU update
 - New animation (v3.1)
 - Cespenar sounds more like Cespenar, oh yes! (v3.1)
+- Musky Aura fix (v3.2)
 
